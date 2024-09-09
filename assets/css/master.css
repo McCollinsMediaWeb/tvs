@@ -1014,7 +1014,7 @@ html {
     min-width: 180px;
   }
   .PopUpHeaderBoxWrap1 .container{
-    padding: 0;
+    padding: 0 5px;
   }
   .PopUpHeaderBoxWrap1.container-fluid{
     padding: 0 5px;
