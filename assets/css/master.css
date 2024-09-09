@@ -1072,4 +1072,7 @@ html {
   .MenuButton{
     padding: 6px;
   }
+  .LanguageSwitcherLink span{
+    top: 0;
+  }
 }
