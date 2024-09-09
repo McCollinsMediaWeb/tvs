@@ -1089,4 +1089,12 @@ html {
   .LocationText{
     margin-bottom: 15px;
   }
+  .footerLinks li:nth-child(odd){
+    text-align: right;
+    padding-right: 10px;
+  }
+  .footerLinks li:nth-child(even){
+    text-align: left;
+    padding-left: 10px;
+  }
 }
