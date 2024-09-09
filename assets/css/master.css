@@ -1075,4 +1075,7 @@ html {
   .LanguageSwitcherLink span{
     top: 0;
   }
+  .AboutArea.pd-common{
+    padding-bottom: 0;
+  }
 }
