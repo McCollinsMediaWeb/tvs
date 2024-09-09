@@ -1078,4 +1078,15 @@ html {
   .AboutArea.pd-common{
     padding-bottom: 0;
   }
+  .footerLinks li {
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 5px;
+  }
+  .footerLinks{
+    margin-bottom: 15px;
+  }
+  .LocationText{
+    margin-bottom: 15px;
+  }
 }
