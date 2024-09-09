@@ -912,6 +912,9 @@ html {
   max-width: 100%;
 }
 @media only screen and (max-width: 1000px) {
+  body{
+    font-size: 14px;
+  }
   .d-only{
     display: none !important;
   }
@@ -992,5 +995,82 @@ html {
   }
   .PopupContactBox input, .PopupContactBox select, .PopupContactBox textarea {
     padding: 9px 15px;
+  }
+  .pd-common {
+    padding: 20px 0px;
+  }
+  .AboutHomeBox {
+    padding: 15px;
+    max-width: 100%;
+  }
+  .AboutHomeBoxT1 {
+    font-size: 21px;
+  }
+  .AboutHomeBoxT2 {
+    font-size: 14px;
+  }
+  .AboutHomeBoxT3 {
+    margin-top: 10px;
+    padding: 9px;
+    min-width: 180px;
+  }
+  .PopUpHeaderBoxWrap1 .container{
+    padding: 0;
+  }
+  .PopUpHeaderBoxWrap1.container-fluid{
+    padding: 0 5px;
+  }
+  .CloseButton{
+    margin-left: auto;
+  }
+  .ServicesBoxes .ServiceBoxTp  {
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  .ServBoxContentT2 {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  .ServBoxContent {
+    padding: 15px;
+  }
+  .ServBoxContentT1 {
+    font-size: 21px;
+  }
+  .HdTp1T1 {
+    font-size: 23px;
+  }
+  .BrdBlk span {
+    width: 50% !important;
+    margin: 10px 0px;
+  }
+  .VideoBoxWrap {
+    margin-top: 10px;
+  }
+  .VidBox{
+    height: 300px;
+  }
+  .VideoBoxWrap .col-md-4 {
+    margin-bottom: 15px;
+  }
+  .LgT1 {
+    font-size: 23px;
+  }
+  .LgT2 {
+    font-size: 16px;
+  }
+  footer {
+    padding: 20px 0px;
+    text-align: center;
+  }
+  .SocialMediaLinks{
+    margin-bottom: 20px;
+  }
+  .NewsletterBox {
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+  .MenuButton{
+    padding: 6px;
   }
 }
