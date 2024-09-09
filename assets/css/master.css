@@ -1,0 +1,168 @@
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+    line-height: 1.3;
+    font-size: 15px;
+}
+a{
+    text-decoration: none !important;
+}
+.arabic{
+    font-family: "Tajawal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container{
+    max-width: 1450px;
+}
+.footerbottom{
+    background-color: #242424;  
+    color: #fff;
+    padding: 10px 0px;
+}
+.marquee-wrapper {
+    overflow: hidden;
+  
+    width: 100%;
+    background-color: #e24301;
+    padding: 5px 0px;
+  }
+  .marquee, .marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .marquee {
+    animation: marquee 40s linear infinite;
+  }
+  .marquee span{
+    margin-right: 5px;
+    color: #fff;
+    font-size: 13px;
+  }
+  /* Keyframes for the ticker animation */
+  @keyframes marquee {
+    0% {
+      transform:translateX(0)
+    }
+    to {
+      transform:translateX(-50%)
+    }
+  }
+  
+  
+.HeaderBox {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: center;
+  }
+  .HeaderBoxLeft {
+    flex: 0 0 200px;
+    max-width: 200px;
+  }
+  .HeaderBoxMiddle {
+    flex: 0 0 auto;
+    max-width: auto;
+  }
+  .HeaderBoxRight {
+    flex: 0 0 150px;
+    max-width: 150px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .LanguageSwitcherLink {
+    display: flex;
+    align-items: center;
+    color: #242424;
+    border: 1px solid #242424;
+    padding: 3px 10px;
+    width: 100px;
+    border-radius: 25px;
+    direction: rtl;
+  }
+  .LanguageSwitcher svg {
+    width: 28px;
+    height: 26px;
+  }
+
+  .MenuButton {
+    margin-left: 25px;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.4s;
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+  .MenuIcon {
+    background-image: url(../images/menu.png);
+    width: 30px;
+    height: 30px;
+    background-size: 100% 100%;
+  }
+  #background-video{
+    width: 100%;
+    object-fit: cover;
+  }
+  .HeroSection::after{
+    content: "";
+    background-color: rgba(0,0,0,0.1);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  .NavBar1 {
+    list-style: none;
+    display: flex;
+  }
+  .NavBar1 li {
+    position: relative;
+  }
+  .HeadrNavItem {
+    font-size: 15px;
+    margin: 0 12px;
+    color: #242424;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .HeadrNavItem.active::after, .HeadrNavItem:hover::after {
+    content: "";
+    background-color: #e24301;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    transition: 0.5s;
+    border-radius: 5px;
+  }
+  .DropDownMenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #e24301;
+    padding: 20px;
+    border-radius: 20px;
+    z-index: 5;
+    width: 270px;
+  }
+  .DropDownMenu a {
+    display: block;
+    font-size: 15px;
+    padding: 5px 0px;
+    color: #fff;
+  }
+  .DropDownMenu a:hover{
+    opacity: 0.6;
+  }
+  .NavBar1 li:hover .DropDownMenu {
+    display: block;
+  }
