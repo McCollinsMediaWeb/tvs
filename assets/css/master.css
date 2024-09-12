@@ -388,7 +388,7 @@ a {
 .PopupContactBox textarea {
   padding: 10px 15px;
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   border: 1px solid #242424;
   outline: none !important;
   box-shadow: none !important;
@@ -400,6 +400,11 @@ a {
   -moz-appearance: none;
   appearance: none;
   max-height: 75px;
+}
+body .intl-tel-input input, 
+body .intl-tel-input input[type="tel"], 
+body .intl-tel-input input[type="text"]{
+  margin-bottom: 10px !important;
 }
 
 .wpcf7-form-control.wpcf7-submit {
