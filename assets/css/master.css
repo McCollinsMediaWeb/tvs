@@ -399,19 +399,24 @@ a {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  max-height: 75px;
 }
 
 .wpcf7-form-control.wpcf7-submit {
   padding: 10px 15px;
   background: #e24301;
-  color: #242424;
+  color: #fff;
   border-radius: 50px;
   display: block;
   text-align: center;
   position: relative;
   cursor: pointer;
-  max-width: 170px;
+  max-width: 210px;
   border: 0px solid #e4e4e4;
+  transition: 0.4s;
+}
+.wpcf7-form-control.wpcf7-submit:hover{
+  background-color: #242424;
 }
 
 .PopuImage {
@@ -1010,6 +1015,12 @@ html {
 }
 #sb_instagram img {
   border-radius: 20px !important;
+}
+.wpcf7 br{
+  display: none !important;
+}
+.intl-tel-input {
+  display: block;
 }
 .TabBox{
   margin: 0 auto;
