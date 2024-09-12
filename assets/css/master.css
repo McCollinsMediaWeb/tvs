@@ -401,9 +401,8 @@ a {
   appearance: none;
   max-height: 75px;
 }
-body .intl-tel-input input, 
-body .intl-tel-input input[type="tel"], 
-body .intl-tel-input input[type="text"]{
+
+body .intl-tel-input input[type="tel"]{
   margin-bottom: 10px !important;
 }
 
