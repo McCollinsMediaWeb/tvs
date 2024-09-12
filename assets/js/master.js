@@ -57,4 +57,22 @@ $(document).ready(
             
   });
 
-  
+  $(document).ready(function () {
+    // Initially show the first tab content and add an active class to the first tab
+    $('.TabItemContent').hide(); // Hide all tab contents
+    $('.TabItemContent[data-tab="1"]').show(); // Show the first tab content
+    $('.TabItem[data-tab="1"]').addClass('active'); // Mark the first tab as active
+
+    // On clicking a tab item
+    $('.TabItem').click(function () {
+        var tabId = $(this).data('tab'); // Get the tab id from data-tab attribute
+
+        // Remove active class from all tabs and hide all contents
+        $('.TabItem').removeClass('active');
+        $('.TabItemContent').hide();
+
+        // Add active class to the clicked tab and show the related content
+        $(this).addClass('active');
+        $('.TabItemContent[data-tab="' + tabId + '"]').show();
+    });
+});

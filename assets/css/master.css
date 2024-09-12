@@ -911,6 +911,147 @@ html {
 .max-width-100{
   max-width: 100%;
 }
+.PageHeader{
+  padding: 30px 0px;
+  overflow: hidden;
+  position: relative;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.bg2{
+  background-color: #e24301;
+  color: #fff;
+}
+.PagHt1{
+  font-size: 40px;
+  font-weight: 500;
+}
+.abt1{
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.AbtSec1 .BrdBlk span {
+  width: 50%;
+  height: 3px;
+}
+
+.abt2{
+  font-size: 18px;
+}
+.abt2 div{
+  margin-bottom: 15px;
+}
+.abt3{
+  text-align: center;
+  color: #e24301;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.abt3 b{
+  font-weight: 700;
+  margin-left: 5px;
+}
+.brdBtmArrow{
+  display: inline-block;
+  position: relative;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+.brdBtmArrow::after{
+  content: "";
+  background-color: #e24301;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.abt4{
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0 auto;
+  margin-top: 15px;
+  max-width: 80%;
+}
+.abt5{
+  text-align: center;
+  font-weight: 500;
+  font-size: 17px;
+  margin: 20px 0px;
+
+}
+.abt5 div{
+  margin-bottom: 10px;
+}
+.TabItem{
+  padding: 15px;
+  border-radius: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+  border: 2px solid transparent;
+}
+.TabItem.active,.TabItem:hover{
+  background-color: #fff;
+  border: 2px solid #e24301;
+}
+.TabBox{
+  margin: 0 auto;
+  margin-top:50px;
+  margin-bottom: 20px;
+  max-width: 75%;
+}
+.TabItemContent{
+  padding: 25px;
+  margin:  0 auto;
+  text-align: center;
+  border-radius: 20px;
+}
+.TabItemContent img{
+  width: 100%;
+}
+.TabContentText{
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+.NumberItemIcon{
+  width: 84px;
+  height: 84px;
+  background-size: 100% 100%;
+margin: 0 auto;
+margin-bottom: 15px;
+}
+.NumberItemIcon.ic1{
+  background-image: url(../images/ic1.png);
+}
+.NumberItemIcon.ic2{
+  background-image: url(../images/ic2.png);
+}
+.NumberItemIcon.ic3{
+  background-image: url(../images/ic3.png);
+}
+.NumberWrap{
+  justify-items: center;
+text-align: center;  
+margin-top: 30px;
+}
+.NumberItemT1{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.NumberItemT2{
+  font-size: 24px;
+  font-weight: 500;
+}
 @media only screen and (max-width: 1000px) {
   body{
     font-size: 14px;
