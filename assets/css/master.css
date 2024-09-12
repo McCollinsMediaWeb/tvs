@@ -1005,6 +1005,9 @@ html {
   background-color: #fff;
   border: 2px solid #e24301;
 }
+.sb_instagram_header{
+  display: none !important;
+}
 .TabBox{
   margin: 0 auto;
   margin-top:50px;
