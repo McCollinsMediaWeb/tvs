@@ -1052,6 +1052,36 @@ margin-top: 30px;
   font-size: 24px;
   font-weight: 500;
 }
+.MangeMentBox{
+
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.TeamTitle{
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 15px 0px 5px 0px;
+}
+.TeamPosition{
+  font-size: 16px;
+}
+.abt6{
+  text-align: center;
+  font-weight: 500;
+  font-size: 17px;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.abt6 div{
+  margin-bottom: 20px;
+}
+.abt6 .Cha{
+  font-weight: 700;
+  color: #e24301;
+  font-size: 19px;
+}
 @media only screen and (max-width: 1000px) {
   body{
     font-size: 14px;
@@ -1237,5 +1267,106 @@ margin-top: 30px;
   .footerLinks li:nth-child(even){
     text-align: left;
     padding-left: 10px;
+  }
+  .PagHt1 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .PageHeader {
+    padding: 20px 0px;
+  }
+  .AbtImage {
+    margin-bottom: 15px;
+  }
+  .abt1 {
+    font-size: 18px;
+  }
+  .brdBtmArrow {
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  .abt2 div {
+    margin-bottom: 10px;
+  }
+  .abt2 {
+    font-size: 16px;
+  }
+  .abt3 {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  .abt4 {
+    font-size: 16px;
+    margin-top: 0;
+    max-width: 100%;
+  }
+  .abt5 {
+    font-size: 16px;
+    margin: 5px 0px;
+  }
+  .abt5 div {
+    margin-bottom: 8px;
+  }
+  .TabBox {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+  }
+  .NumberWrap {
+    justify-content: center;
+  }
+  .NumberWrap  .col-md-4{
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .NumberWrap  .col-md-4:last-child{
+    margin-top: 25px;
+  }
+  .NumberItemIcon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+  }
+  .NumberItemT1 {
+    font-size: 25px;
+  }
+  .NumberItemT2 {
+    font-size: 20px;
+  }
+  .MangeMentBox{
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: 10px;
+  }
+  .abt6 {
+    font-size: 16px;
+    max-width: 100%;
+  }
+  .abt6 div {
+    margin-bottom: 10px;
+  }
+  .abt6 .Cha {
+    font-size: 17px;
+  }
+  .TabItems{
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .TabItem {
+    padding: 10px;
+    font-size: 16px;
+    margin: 0 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #242424;
+    color: #fff;
+  }
+  .TabItem.active, .TabItem:hover {
+    background-color: #e24301;
+    border: 2px solid #e24301;
+    color: #fff;
+  }
+  .TabItemContent {
+    padding: 10px;
   }
 }
