@@ -1115,6 +1115,35 @@ margin-top: 30px;
   color: #e24301;
   font-size: 19px;
 }
+.ServiceGrids{
+  margin-top: 30px;
+}
+.ServiceGrid{
+  padding: 20px;
+  border-radius: 20px;
+}
+.ServiceItmName{
+  font-weight: 600;
+  font-size: 20px;
+  margin: 15px 0px 10px 0px;
+}
+.ServiceItemDesc{
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+.ServiceLink{
+  padding: 10px 20px;
+  background: #e24301;
+  color: #fff !important;
+  border-radius: 50px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+.ServiceLink:hover{
+  background-color: #242424;
+}
 @media only screen and (max-width: 1000px) {
   body{
     font-size: 14px;
