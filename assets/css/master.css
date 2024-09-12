@@ -401,7 +401,12 @@ a {
   appearance: none;
   max-height: 75px;
 }
-
+.wpcf7 form .wpcf7-response-output {
+  margin: 0;
+}
+.wpcf7-form.sent p{
+margin: 0 !important;
+}
 body .intl-tel-input input[type="tel"]{
   margin-bottom: 10px !important;
 }
