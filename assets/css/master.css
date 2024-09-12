@@ -523,6 +523,9 @@ body .intl-tel-input input[type="tel"]{
 .pd-common {
   padding: 70px 0px;
 }
+.GGetInTouchBox.pd-common {
+  padding: 70px 0px 30px 0px;
+}
 
 .mx-100 {
   max-width: 100%;
@@ -1398,5 +1401,8 @@ margin-top: 30px;
   }
   .TabItemContent {
     padding: 10px;
+  }
+  .GGetInTouchBox.pd-common {
+    padding: 20px 0px 20px 0px;
   }
 }
