@@ -1020,7 +1020,7 @@ html {
   display: none !important;
 }
 .intl-tel-input {
-  display: block;
+  display: block !important;
 }
 .TabBox{
   margin: 0 auto;
