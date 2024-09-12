@@ -1008,6 +1008,9 @@ html {
 .sb_instagram_header{
   display: none !important;
 }
+#sb_instagram img {
+  border-radius: 20px !important;
+}
 .TabBox{
   margin: 0 auto;
   margin-top:50px;
