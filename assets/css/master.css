@@ -523,6 +523,9 @@ body .intl-tel-input input[type="tel"]{
 .pd-common {
   padding: 70px 0px;
 }
+.pd-common.pd-common-half{
+  padding: 70px 0px 35px 0px;
+}
 .GGetInTouchBox.pd-common {
   padding: 70px 0px 30px 0px;
 }
@@ -1121,6 +1124,7 @@ margin-top: 30px;
 .ServiceGrid{
   padding: 20px;
   border-radius: 20px;
+  margin-bottom: 30px;
 }
 .ServiceItmName{
   font-weight: 600;
@@ -1131,6 +1135,10 @@ margin-top: 30px;
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 15px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
 }
 .ServiceLink{
   padding: 10px 20px;
@@ -1433,5 +1441,18 @@ margin-top: 30px;
   }
   .GGetInTouchBox.pd-common {
     padding: 20px 0px 0px 0px;
+  }
+  .pd-common.pd-common-half{
+    padding: 20px 0px 10px 0px;
+  }
+  .ServiceGrid{
+    margin-bottom: 15px;
+  }
+  .ServiceItmName {
+    font-size: 18px;
+    margin: 10px 0px 10px 0px;
+  }
+  .ServiceLink {
+    padding: 9px 20px;
   }
 }
