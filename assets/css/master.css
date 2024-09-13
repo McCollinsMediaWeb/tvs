@@ -1171,6 +1171,7 @@ margin-top: 30px;
   border: 3px solid #fff;
   font-size: 16px;
   box-shadow: none !important;
+  outline: none !important;
 }
 .GalleryFilterItemButton:hover , .GalleryFilterItemButton.active{
   background-color: #e24301;
@@ -1198,12 +1199,21 @@ margin-top: 30px;
   border-radius: 50%;
   right: -40px;
 }
+.galleryFilterBox .slick-dots{
+  display: none !important;
+}
 .GalleryItemSliderWrap{
   position: relative;
   padding: 0px 50px;
 }
 .galleryItemsBox{
-  padding: 30px 0px;
+  padding: 15px 0px 10px 0px;
+}
+.galleryItemsBox .row{
+  margin: 0 -5px;
+}
+.galleryItemsBox .row .col-md-3{
+  padding: 5px 5px;
 }
 .VideoPlayButton{
   background-image: url(../images/loop-vide.png);
@@ -1215,6 +1225,22 @@ margin-top: 30px;
   background-size: 100%;
   margin-left: -25px;
   margin-top: -25px;
+}
+.StickHeader .galleryFilterBox {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+.LoadMoreButton{
+  text-align: center;
+  background-color: #e24301;
+  color: #fff !important;
+  border-radius: 25px;
+  padding: 10px 17px;
+  max-width: 220px;
+  margin: 15px auto;
 }
 @media only screen and (max-width: 1000px) {
   body{
