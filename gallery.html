@@ -166,6 +166,12 @@
                   <button class="GalleryFilterItemButton" data-filter="All Images">All Images</button>
                   <button class="GalleryFilterItemButton" data-filter="Duty Free">Duty Free</button>
                   <button class="GalleryFilterItemButton" data-filter="Signage">Signage</button>
+                  <button class="GalleryFilterItemButton" data-filter="Shop Fit-Out (Store Fitting)">Shop Fit-Out (Store Fitting)</button>
+                  <button class="GalleryFilterItemButton" data-filter="Window Displays">Window Displays</button>
+                  <button class="GalleryFilterItemButton" data-filter="Permanent Displays">Permanent Displays</button>
+                  <button class="GalleryFilterItemButton" data-filter="Displays">Displays</button>
+                  <button class="GalleryFilterItemButton" data-filter="Fibre Glass / Art & Sculptures">Fibre Glass / Art & Sculptures</button>
+                  <button class="GalleryFilterItemButton" data-filter="Custom Exhibition Stands">Custom Exhibition Stands</button>
                   <button class="GalleryFilterItemButton" data-filter="Custom Kiosks">Custom Kiosks</button>
                   <button class="GalleryFilterItemButton" data-filter="Large Format Printing / Flatbed">Large Format Printing / Flatbed</button>
                   <button class="GalleryFilterItemButton" data-filter="Theme Park Installations">Theme Park Installations</button>
@@ -176,197 +182,16 @@
           
           <section class="galleryItemsBox">
             <div class="container">
-              <div class="row" id="galleryContainer">
-                <!-- Gallery items will be dynamically loaded here -->
+              <div class="row galleryItems"></div>
+              <div class="col-md-12">
+                <div class="LoadMoreButton">Load More Items</div>
               </div>
             </div>
           </section>
           <script>
-            const mediaList = [
-              {
-                LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
-                ThumbURL: "assets/images/Joinery.jpg",
-                categories: "All Videos , Duty Free , Signage , Displays",
-                URLtype: "video",
-              },
-              {
-                LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
-                ThumbURL: "assets/images/Joinery.jpg",
-                categories: "All Videos , Duty Free , Signage , Displays",
-                URLtype: "video",
-              },
-              {
-                LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
-                ThumbURL: "assets/images/Joinery.jpg",
-                categories: "All Videos , Duty Free , Signage , Displays",
-                URLtype: "video",
-              },
-              {
-                LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
-                ThumbURL: "assets/images/Joinery.jpg",
-                categories: "All Videos , Duty Free , Signage , Displays",
-                URLtype: "video",
-              },
-              {
-                LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
-                ThumbURL: "assets/images/Joinery.jpg",
-                categories: "All Videos , Duty Free , Signage , Displays",
-                URLtype: "video",
-              },
-              {
-                LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
-                ThumbURL: "assets/images/Joinery.jpg",
-                categories: "All Videos , Duty Free , Signage , Displays",
-                URLtype: "video",
-              },
-              {
-                LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
-                ThumbURL: "assets/images/Joinery.jpg",
-                categories: "All Videos , Duty Free , Signage , Displays",
-                URLtype: "video",
-              },
-              {
-                LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
-                ThumbURL: "assets/images/Joinery.jpg",
-                categories: "All Videos , Duty Free , Signage , Displays",
-                URLtype: "video",
-              },
-              {
-                LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
-                ThumbURL: "assets/images/Joinery.jpg",
-                categories: "All Videos , Duty Free , Signage , Displays",
-                URLtype: "video",
-              },
-              {
-                LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
-                ThumbURL: "assets/images/Joinery.jpg",
-                categories: "All Videos , Duty Free , Signage , Displays",
-                URLtype: "video",
-              },
-              {
-                LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
-                ThumbURL: "assets/images/Joinery.jpg",
-                categories: "All Videos , Duty Free , Signage , Displays",
-                URLtype: "video",
-              },
-              {
-                LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
-                ThumbURL: "assets/images/Joinery.jpg",
-                categories: "All Videos , Duty Free , Signage , Displays",
-                URLtype: "video",
-              },
-              {
-                LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
-                ThumbURL: "assets/images/Joinery.jpg",
-                categories: "All Videos , Duty Free , Signage , Displays",
-                URLtype: "video",
-              },
-              {
-                LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
-                ThumbURL: "assets/images/Joinery.jpg",
-                categories: "All Videos , Duty Free , Signage , Displays",
-                URLtype: "video",
-              },
-              {
-                LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
-                ThumbURL: "assets/images/Joinery.jpg",
-                categories: "All Videos , Duty Free , Signage , Displays",
-                URLtype: "video",
-              },
-              {
-                LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
-                ThumbURL: "assets/images/Joinery.jpg",
-                categories: "All Videos , Duty Free , Signage , Displays",
-                URLtype: "video",
-              },
-              {
-                LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
-                ThumbURL: "assets/images/Joinery.jpg",
-                categories: "All Videos , Duty Free , Signage , Displays",
-                URLtype: "video",
-              },
-              // Add the remaining mediaList items here...
-            ];
-          
-            let itemsPerPage = 12;
-            let currentPage = 1;
-            let currentFilter = "All List";
-          
-            // Load initial items
-            document.addEventListener("DOMContentLoaded", () => {
-              loadGalleryItems();
-              attachFilterEvents();
-              window.addEventListener("scroll", handleScroll);
-            });
-          
-            // Load gallery items based on current filter and pagination
-            function loadGalleryItems() {
-              const galleryContainer = document.getElementById("galleryContainer");
-              galleryContainer.innerHTML = "";
-          
-              const filteredItems = mediaList.filter((item) =>
-                item.categories.includes(currentFilter) || currentFilter === "All List"
-              );
-          
-              const start = (currentPage - 1) * itemsPerPage;
-              const end = start + itemsPerPage;
-          
-              filteredItems.slice(0, end).forEach((item) => {
-                const galleryItem = document.createElement("div");
-                galleryItem.classList.add("col-md-3");
-          
-                if (item.URLtype === "video") {
-                  galleryItem.innerHTML = `
-                    <a class="VidBoxLink" href="${item.LinkURL}" data-fancybox="group">
-                      <div class="GalleryVideoBox position-relative">
-                        <img class="GalleryThumbImage w-100 bd-20" src="${item.ThumbURL}" />
-                        <div class="VideoPlayButton">&nbsp;</div>
-                      </div>
-                    </a>`;
-                } else {
-                  galleryItem.innerHTML = `
-                    <a class="VidBoxLink" href="${item.LinkURL}" data-fancybox="group">
-                      <div class="GalleryVideoBox position-relative">
-                        <img class="GalleryThumbImage w-100 bd-20" src="${item.ThumbURL}" />
-                      </div>
-                    </a>`;
-                }
-          
-                galleryContainer.appendChild(galleryItem);
-              });
-            }
-          
-            // Attach click events to filter buttons
-            function attachFilterEvents() {
-              const filterButtons = document.querySelectorAll(".GalleryFilterItemButton");
-              filterButtons.forEach((button) => {
-                button.addEventListener("click", () => {
-                    window.scrollTo({
-                        top: 0,
-                        behavior: "smooth",
-                    });
-                  currentFilter = button.getAttribute("data-filter");
-                  currentPage = 1;
-                  filterButtons.forEach((btn) => btn.classList.remove("active"));
-                  button.classList.add("active");
-                  loadGalleryItems();
-                });
-              });
-            }
-          
-            // Infinite scroll handling
-            function handleScroll() {
-              if (
-                window.innerHeight + window.scrollY >=
-                document.documentElement.scrollHeight
-              ) {
-                currentPage++;
-                loadGalleryItems();
-              }
-            }
+
+
           </script>
-          
-          
     </main>
     <footer class="bg2">
       <div class="container">

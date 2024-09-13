@@ -1241,6 +1241,11 @@ margin-top: 30px;
   padding: 10px 17px;
   max-width: 220px;
   margin: 15px auto;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.LoadMoreButton:hover{
+  background-color: #242424;
 }
 @media only screen and (max-width: 1000px) {
   body{
@@ -1544,5 +1549,12 @@ margin-top: 30px;
   }
   .ServiceLink {
     padding: 9px 20px;
+  }
+  .galleryFilterBox {
+    padding: 15px 0px;
+  }
+  .GalleryFilterItemButton {
+    padding: 8px 20px;
+    min-width: 140px;
   }
 }

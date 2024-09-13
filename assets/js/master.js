@@ -183,7 +183,226 @@ $(".GalleryItemSlider").slick({
         slidesToShow: 2,
         slidesToScroll: 1,
         centerMode: true,
+        loop: true,
+        infinite: true,
       },
     },
   ],
+});
+
+
+
+const mediaList = [
+  {
+    LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Videos, Duty Free, Signage, Displays",
+    URLtype: "video",
+  },
+  {
+    LinkURL: "assets/images/Joinery.jpg",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Images, Duty Free, Signage",
+    URLtype: "image",
+  },
+  {
+    LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Videos, Duty Free, Signage, Displays",
+    URLtype: "video",
+  },
+  {
+    LinkURL: "assets/images/Joinery.jpg",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Images, Duty Free, Signage",
+    URLtype: "image",
+  },
+  {
+    LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Videos, Duty Free, Signage, Displays",
+    URLtype: "video",
+  },
+  {
+    LinkURL: "assets/images/Joinery.jpg",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Images, Duty Free, Signage",
+    URLtype: "image",
+  },
+  {
+    LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Videos, Duty Free, Signage, Displays",
+    URLtype: "video",
+  },
+  {
+    LinkURL: "assets/images/Joinery.jpg",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Images, Duty Free, Signage",
+    URLtype: "image",
+  },
+  {
+    LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Videos, Duty Free, Signage, Displays",
+    URLtype: "video",
+  },
+  {
+    LinkURL: "assets/images/Joinery.jpg",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Images, Duty Free, Signage",
+    URLtype: "image",
+  },
+  {
+    LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Videos, Duty Free, Signage, Displays",
+    URLtype: "video",
+  },
+  {
+    LinkURL: "assets/images/Joinery.jpg",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Images, Duty Free, Signage",
+    URLtype: "image",
+  },
+  {
+    LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Videos, Duty Free, Signage, Displays",
+    URLtype: "video",
+  },
+  {
+    LinkURL: "assets/images/Joinery.jpg",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Images, Duty Free, Signage",
+    URLtype: "image",
+  },
+  {
+    LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Videos, Duty Free, Signage, Displays",
+    URLtype: "video",
+  },
+  {
+    LinkURL: "assets/images/Joinery.jpg",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Images, Duty Free, Signage",
+    URLtype: "image",
+  },
+  {
+    LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Videos, Duty Free, Signage, Displays",
+    URLtype: "video",
+  },
+  {
+    LinkURL: "assets/images/Joinery.jpg",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Images, Duty Free, Signage",
+    URLtype: "image",
+  },
+  {
+    LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Videos, Duty Free, Signage, Displays",
+    URLtype: "video",
+  },
+  {
+    LinkURL: "assets/images/Joinery.jpg",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Images, Duty Free, Signage",
+    URLtype: "image",
+  },
+  {
+    LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Videos, Duty Free, Signage, Displays",
+    URLtype: "video",
+  },
+  {
+    LinkURL: "assets/images/Joinery.jpg",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Images, Duty Free, Signage",
+    URLtype: "image",
+  },
+  {
+    LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Videos, Duty Free, Signage, Displays",
+    URLtype: "video",
+  },
+  {
+    LinkURL: "assets/images/Joinery.jpg",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Images, Duty Free, Signage",
+    URLtype: "image",
+  },
+  {
+    LinkURL: "https://www.youtube.com/watch?v=j6XDnKc7WNs",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Videos, Duty Free, Signage, Displays",
+    URLtype: "video",
+  },
+  {
+    LinkURL: "assets/images/Joinery.jpg",
+    ThumbURL: "assets/images/Joinery.jpg",
+    categories: "All Images, Duty Free, Signage",
+    URLtype: "image",
+  },
+  // Add remaining items as per your data
+];
+
+let visibleItems = 8;
+let currentFilter = "All List";
+
+function renderGalleryItems(filter) {
+  const galleryItemsContainer = $(".galleryItems");
+  galleryItemsContainer.empty();
+
+  const filteredItems = mediaList.filter((item) => {
+    return filter === "All List" || item.categories.includes(filter);
+  });
+
+  const itemsToShow = filteredItems.slice(0, visibleItems);
+  itemsToShow.forEach((item) => {
+    const itemElement = `
+      <div class="col-md-3">
+        <a class="VidBoxLink" href="${item.LinkURL}" data-fancybox="group">
+          <div class="GalleryVideoBox position-relative">
+            <img class="GalleryThumbImage ImageSwitcher w-100 bd-20" src="${item.ThumbURL}" />
+            ${item.URLtype === "video" ? '<div class="VideoPlayButton">&nbsp;</div>' : ""}
+          </div>
+        </a>
+      </div>
+    `;
+    galleryItemsContainer.append(itemElement);
+  });
+
+  if (visibleItems >= filteredItems.length) {
+    $(".LoadMoreButton").hide();
+  } else {
+    $(".LoadMoreButton").show();
+  }
+}
+
+function resetScrollPosition() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+$(".GalleryFilterItemButton").on("click", function () {
+  $(".GalleryFilterItemButton").removeClass("active");
+  $(this).addClass("active");
+  currentFilter = $(this).data("filter");
+  visibleItems = 8;
+  renderGalleryItems(currentFilter);
+  resetScrollPosition();
+});
+
+$(".LoadMoreButton").on("click", function () {
+  visibleItems += 4;
+  renderGalleryItems(currentFilter);
+});
+
+$(document).ready(function () {
+  renderGalleryItems(currentFilter);
 });
