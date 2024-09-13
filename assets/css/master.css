@@ -947,7 +947,7 @@ html {
   color: #fff;
 }
 .PagHt1{
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 500;
 }
 .abt1{
@@ -1159,6 +1159,62 @@ margin-top: 30px;
 }
 .CapabilityBox .ServiceItemDesc {
   -webkit-line-clamp: 3;
+}
+.GalleryFilterItemButton{
+  background-color: #fff;
+  padding: 11px 20px;
+  font-weight: 500;
+  border-radius: 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: 0.4s;
+  border: 3px solid #fff;
+  font-size: 16px;
+  box-shadow: none !important;
+}
+.GalleryFilterItemButton:hover , .GalleryFilterItemButton.active{
+  background-color: #e24301;
+  color: #fff;
+}
+.galleryFilterBox{
+  padding: 30px 0px;
+}
+.galleryFilterBox .slick-prev {
+  background-image: url(../images/prev.png);
+  background-size: 100% 100%;
+  width: 30px;
+  height: 30px;
+  background-color: #F4F4F4;
+  border-radius: 50%;
+  z-index: 9;
+  left: -40px;
+}
+.galleryFilterBox .slick-next {
+  background-image: url(../images/next.png);
+  background-size: 100% 100%;
+  width: 30px;
+  height: 30px;
+  background-color: #F4F4F4;
+  border-radius: 50%;
+  right: -40px;
+}
+.GalleryItemSliderWrap{
+  position: relative;
+  padding: 0px 50px;
+}
+.galleryItemsBox{
+  padding: 30px 0px;
+}
+.VideoPlayButton{
+  background-image: url(../images/loop-vide.png);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-size: 100%;
+  margin-left: -25px;
+  margin-top: -25px;
 }
 @media only screen and (max-width: 1000px) {
   body{
