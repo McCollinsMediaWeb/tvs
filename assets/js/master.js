@@ -194,7 +194,7 @@ $(".GalleryItemSlider").slick({
 
 
 
-let visibleItems = 8;
+let visibleItems = 12;
 let currentFilter = "All List";
 
 function renderGalleryItems(filter) {
