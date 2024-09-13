@@ -235,13 +235,13 @@ $(".GalleryFilterItemButton").on("click", function () {
   $(".GalleryFilterItemButton").removeClass("active");
   $(this).addClass("active");
   currentFilter = $(this).data("filter");
-  visibleItems = 8;
+  visibleItems = 12;
   renderGalleryItems(currentFilter);
   resetScrollPosition();
 });
 
 $(".LoadMoreButton").on("click", function () {
-  visibleItems += 4;
+  visibleItems += 8;
   renderGalleryItems(currentFilter);
 });
 
