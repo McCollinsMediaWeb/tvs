@@ -1248,6 +1248,10 @@ margin-top: 30px;
 .LoadMoreButton:hover{
   background-color: #242424;
 }
+.GalleryThumbImage{
+  height: 280px;
+  object-fit: cover;
+}
 @media only screen and (max-width: 1000px) {
   body{
     font-size: 14px;
