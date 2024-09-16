@@ -1350,6 +1350,26 @@ margin-top: 30px;
 .GGetInTouchBox.CareerBoxC .BrdBlk span {
   width: 25%;
 }
+.TvsLocation{
+  padding: 20px;
+}
+.TvsLocation .LgT1 {
+  font-size: 25px;
+}
+.TvsLocation .LgT2{
+  line-height: 1.3;
+}
+.LocationLink{
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #e24301;
+  color: #fff !important;
+  border-radius: 50px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  font-weight: 500;
+}
 @media only screen and (max-width: 1000px) {
   body{
     font-size: 14px;
@@ -1683,5 +1703,21 @@ margin-top: 30px;
   .BlogItem {
     padding: 10px;
     margin-bottom: 15px;
+  }
+  .crT1 {
+    font-size: 16px;
+  }
+  .CareerBlox {
+    margin-top: 30px;
+  }
+  .BulletPoint {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  .codedropz-upload-inner h3 {
+    font-size: 14px;
+  }
+  .codedropz-upload-container {
+    padding: 0;
   }
 }
