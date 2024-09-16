@@ -1269,6 +1269,9 @@ margin-top: 30px;
   overflow: hidden;
   font-size: 12px;
 }
+.BlogDateandPostdetailsM span{
+  color: #e24301;
+}
 .BlogTitle{
   font-weight: 500;
   font-size: 16px;
