@@ -1245,6 +1245,7 @@ margin-top: 30px;
   margin: 15px auto;
   cursor: pointer;  
   transition: 0.4s;
+  font-weight: 600;
 }
 .LoadMoreButton:hover{
   background-color: #242424;
@@ -1305,6 +1306,35 @@ margin-top: 30px;
 }
 .BlogItemsBox a:hover .GoteoBtn{
   background-color: #242424;
+}
+.crT1{
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 17px;
+}
+.CareerBlox{
+  margin-top: 60px;
+}
+.BulletPoints{
+  margin-top: 15px;
+}
+.BulletPoint{
+  font-weight: 500;
+  position: relative;
+  padding-left: 20px;
+  font-size: 17px;
+  margin-top: 10px;
+}
+.BulletPoint::after{
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #e24301;
+  position: absolute;
+  left: 0;
+  top: 5px;
 }
 @media only screen and (max-width: 1000px) {
   body{
@@ -1626,5 +1656,18 @@ margin-top: 30px;
   }
   .galleryFilterBox .container{
     padding: 0 5px;
+  }
+  .BlogTitle {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .GoteoBtn {
+    margin-top: 0;
+    padding: 8px 20px;
+    font-size: 13px;
+  }
+  .BlogItem {
+    padding: 10px;
+    margin-bottom: 15px;
   }
 }
