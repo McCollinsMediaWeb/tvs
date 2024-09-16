@@ -1384,6 +1384,9 @@ margin-top: 30px;
   font-weight: 500;
   margin-bottom: 10px;
 }
+.LocationLink:hover{
+  background-color: #242424;
+}
 @media only screen and (max-width: 1000px) {
   body{
     font-size: 14px;
@@ -1739,5 +1742,11 @@ margin-top: 30px;
   }
   .TvsLocation{
     margin-bottom: 15px;
+  }
+  .Thank1 {
+    font-size: 19px;
+  }
+  .Thank2 {
+    font-size: 17px;
   }
 }
