@@ -1336,6 +1336,17 @@ margin-top: 30px;
   left: 0;
   top: 5px;
 }
+.codedropz-upload-inner h3{
+  font-size: 17px;
+}
+.codedropz-upload-handler {
+  border: 1px solid #242424;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  position: relative;
+  background: #fff;
+  padding: 10px;
+}
 @media only screen and (max-width: 1000px) {
   body{
     font-size: 14px;
