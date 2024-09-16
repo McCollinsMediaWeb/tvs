@@ -1254,6 +1254,58 @@ margin-top: 30px;
   object-fit: cover;
   background-color: #e24301;
 }
+.BlogItem {
+  padding: 15px;
+  margin-bottom: 30px;
+  transition: 0.4s;
+}
+.BlogDateandPostdetailsM{
+  font-weight: 500;
+  margin: 10px 0px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.BlogTitle{
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.BlogDescriptionM{
+  margin-bottom: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.BlogItemsBox a{
+  color: #242424;
+}
+.GoteoBtn{
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #e24301;
+  color: #fff !important;
+  border-radius: 50px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  font-weight: 500;
+}
+.BlogItemsBox a:hover .BlogItem{
+  background-color: #e24301;
+}
+.BlogItemsBox a:hover {
+  color: #fff !important;
+}
+.BlogItemsBox a:hover .GoteoBtn{
+  background-color: #242424;
+}
 @media only screen and (max-width: 1000px) {
   body{
     font-size: 14px;
