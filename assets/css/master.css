@@ -1445,7 +1445,9 @@ margin-top: 30px;
 .ServiceContent div{
   line-height: 1.4;
 }
-
+.ServiceContent div b{
+font-weight: 600;
+}
 @media only screen and (max-width: 1000px) {
   body{
     font-size: 14px;
