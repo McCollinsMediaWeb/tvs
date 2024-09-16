@@ -193,13 +193,17 @@ $(".GalleryItemSlider").slick({
 
 
 
-
 let visibleItems = 12;
 let currentFilter = "All List";
+let isLoading = false; // To prevent multiple simultaneous calls
 
 function renderGalleryItems(filter) {
   const galleryItemsContainer = $(".galleryItems");
-  galleryItemsContainer.empty();
+
+  // If not the initial load, append items instead of emptying the container
+  if (visibleItems === 12) {
+    galleryItemsContainer.empty();
+  }
 
   const filteredItems = mediaList.filter((item) => {
     return filter === "All List" || item.categories.includes(filter);
@@ -220,10 +224,21 @@ function renderGalleryItems(filter) {
     galleryItemsContainer.append(itemElement);
   });
 
+  // Show or hide the Load More button
   if (visibleItems >= filteredItems.length) {
     $(".LoadMoreButton").hide();
+    isLoading = true; // Prevent further infinite scroll calls if all items are loaded
   } else {
     $(".LoadMoreButton").show();
+    isLoading = false;
+  }
+}
+
+function loadMoreItems() {
+  if (!isLoading) {
+    isLoading = true;
+    visibleItems += 8;
+    renderGalleryItems(currentFilter);
   }
 }
 
@@ -240,9 +255,16 @@ $(".GalleryFilterItemButton").on("click", function () {
   resetScrollPosition();
 });
 
+// Load more items on button click
 $(".LoadMoreButton").on("click", function () {
-  visibleItems += 8;
-  renderGalleryItems(currentFilter);
+  loadMoreItems();
+});
+
+// Infinite scroll functionality
+$(window).on("scroll", function () {
+  if ($(window).scrollTop() + $(window).height() >= $(document).height() - 100) {
+    loadMoreItems();
+  }
 });
 
 $(document).ready(function () {
