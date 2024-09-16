@@ -1437,6 +1437,11 @@ margin-top: 30px;
 .blogSideBar .PopupContactBox{
   margin-top: 20px;
 }
+.blogSideBar .PopupContactBox input, 
+.blogSideBar .PopupContactBox select, 
+.blogSideBar .PopupContactBox textarea {
+  padding: 8px 15px;
+}
 @media only screen and (max-width: 1000px) {
   body{
     font-size: 14px;
