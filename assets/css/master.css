@@ -1252,6 +1252,10 @@ margin-top: 30px;
 .LoadMoreButton:hover{
   background-color: #242424;
 }
+.ViewDetLink{
+  color: #e24301;
+  font-size: 13px;
+}
 .GalleryThumbImage{
   height: 280px;
   object-fit: cover;
