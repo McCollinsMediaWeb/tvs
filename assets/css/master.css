@@ -1451,6 +1451,9 @@ font-weight: 600;
 .ServiceGallery{
   margin-top: 30px;
 }
+.ServiceGallery .row > div{
+  margin-bottom: 30px;
+}
 @media only screen and (max-width: 1000px) {
   body{
     font-size: 14px;
