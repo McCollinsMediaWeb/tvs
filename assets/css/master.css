@@ -1370,6 +1370,20 @@ margin-top: 30px;
   position: relative;
   font-weight: 500;
 }
+.ThankyouBox{
+  min-height: 50vh;
+}
+.Thank1{
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #e24301;
+}
+.Thank2{
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
 @media only screen and (max-width: 1000px) {
   body{
     font-size: 14px;
@@ -1719,5 +1733,11 @@ margin-top: 30px;
   }
   .codedropz-upload-container {
     padding: 0;
+  }
+  .TvsLocation .LgT1 {
+    font-size: 18px;
+  }
+  .TvsLocation{
+    margin-bottom: 15px;
   }
 }
