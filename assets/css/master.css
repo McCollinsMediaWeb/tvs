@@ -1826,4 +1826,7 @@ font-weight: 600;
   .ServiceGallery{
     margin-top: 15px;
   }
+  .ServiceGallery .row > div{
+    margin-bottom: 10px;
+  }
 }
