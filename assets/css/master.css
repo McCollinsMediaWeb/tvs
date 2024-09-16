@@ -1347,6 +1347,9 @@ margin-top: 30px;
   background: #fff;
   padding: 10px;
 }
+.GGetInTouchBox.CareerBoxC .BrdBlk span {
+  width: 25%;
+}
 @media only screen and (max-width: 1000px) {
   body{
     font-size: 14px;
