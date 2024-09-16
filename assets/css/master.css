@@ -1397,6 +1397,11 @@ margin-top: 30px;
 .LocationLink:hover{
   background-color: #242424;
 }
+.Txt5 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
 @media only screen and (max-width: 1000px) {
   body{
     font-size: 14px;
