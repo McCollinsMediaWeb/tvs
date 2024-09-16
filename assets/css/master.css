@@ -1405,6 +1405,38 @@ margin-top: 30px;
 .BlogContentDetails *{
   font-size: 16px;
 }
+.blogSideBar{
+  padding: 15px 0px;
+  border-radius: 20px;
+}
+.blogSideBar .LgT1 {
+  font-size: 21px;
+}
+.blogSideBar .LgT2 {
+  font-size: 15px;
+}
+.blogSideBar .BrdBlk span{
+  margin: 15px 0px;
+}
+.blogSideBar .SocialIcn {
+  width: 30px;
+  height: 30px;
+}
+.blogSideBar .LLinkFle .LLinkFleL {
+  flex: 0 0 45px;
+}
+.blogSideBar .LLinkFleR1{
+  font-size: 15px;
+}
+.LLinkFleR2 {
+  font-size: 14px;
+}
+.blogSideBar .ContactItemLink{
+  padding: 10px 0px;
+}
+.blogSideBar .PopupContactBox{
+  margin-top: 20px;
+}
 @media only screen and (max-width: 1000px) {
   body{
     font-size: 14px;
