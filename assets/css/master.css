@@ -1441,6 +1441,7 @@ margin-top: 30px;
 .blogSideBar .PopupContactBox select, 
 .blogSideBar .PopupContactBox textarea {
   padding: 8px 15px;
+  font-size: 14px;
 }
 .ServiceContent div{
   line-height: 1.4;
