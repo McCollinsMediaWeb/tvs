@@ -1458,6 +1458,10 @@ font-weight: 600;
 .ServiceGallery .row ul li {
   margin-bottom: 10px;
 }
+.GallegryImage {
+  height: 300px;
+  object-fit: cover;
+}
 @media only screen and (max-width: 1000px) {
   body{
     font-size: 14px;
