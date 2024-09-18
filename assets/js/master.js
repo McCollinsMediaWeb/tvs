@@ -248,3 +248,19 @@ $(".LoadMoreButton").on("click", function () {
 $(document).ready(function () {
   renderGalleryItems(currentFilter);
 });
+
+
+$(document).ready(function() {
+  $(".accordion-header").click(function() {
+    // Remove 'active' class from all headers except the clicked one
+    $(".accordion-header").not(this).removeClass("active");
+        
+    // Toggle the 'active' class on the clicked header
+    $(this).toggleClass("active");
+      // Slide up other content sections
+      $(".accordion-content").not($(this).next()).slideUp();
+      
+      // Toggle the clicked section
+      $(this).next().slideToggle();
+  });
+});

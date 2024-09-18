@@ -1463,6 +1463,33 @@ font-weight: 600;
   height: 340px;
   object-fit: cover;
 }
+.accordion-header{
+  font-weight: 500;
+  font-size: 18px;
+  padding: 15px 0px;
+  border-bottom: 1px solid #e4e4e4;
+  cursor: pointer;
+  position: relative;
+  padding-right: 20px;
+}
+.accordion-header:after{
+  content: "";
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  background-image: url(../images/plus.png);
+  background-size: 100% 100%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.accordion-header.active:after{
+  background-image: url(../images/minus.png);
+}
+.accordion-content{
+  padding: 15px;
+  display: none;
+}
 @media only screen and (max-width: 1000px) {
   body{
     font-size: 14px;
