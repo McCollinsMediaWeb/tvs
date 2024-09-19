@@ -18,7 +18,7 @@ body{
     font-weight: 500;
     font-style: normal;
   }
-  @keyframes marquee-rtl {
+  @keyframes marqueertl {
     0% {
       transform: translateX(100%);
     }
@@ -28,7 +28,7 @@ body{
   }
 
   .marquee {
-    animation: marquee-rtl 40s linear infinite;
+    animation: marqueertl 40s linear infinite;
   }
   .HeadrNavItem.getaquote {
     margin-right: auto;
