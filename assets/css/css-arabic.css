@@ -19,7 +19,10 @@ body{
     font-style: normal;
     min-width: 110px;
     justify-content: space-between;
-    margin-left: 20px;
+    margin-left: 15px;
+  }
+  .MenuButton {
+    margin-left: 0;
   }
   @keyframes marqueertl {
     0% {
@@ -35,7 +38,7 @@ body{
   }
   .HeadrNavItem.getaquote {
     margin-right: auto;
-    margin-left: 25px;
+    margin-left: 20px;
   }
   .HeaderBoxRight {
     flex: 0 0 200px;
