@@ -48,3 +48,7 @@ body{
   .HeadrNavItem {
     font-size: 16px;
   }
+  .DropDownMenu {
+    left: auto;
+    right: 0;
+  }
