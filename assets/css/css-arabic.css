@@ -65,4 +65,7 @@ body{
     .LanguageSwitcherLink span {
         font-size: 12px;
     }
+    .LanguageSwitcherLink {
+        padding: 0px 8px;
+    }
   }
