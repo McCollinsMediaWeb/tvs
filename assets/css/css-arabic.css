@@ -18,3 +18,15 @@ body{
     font-weight: 500;
     font-style: normal;
   }
+  @keyframes marquee-rtl {
+    0% {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .marquee {
+    animation: marquee-rtl 40s linear infinite;
+  }
