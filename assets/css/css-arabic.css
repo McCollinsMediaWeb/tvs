@@ -30,3 +30,7 @@ body{
   .marquee {
     animation: marquee-rtl 40s linear infinite;
   }
+  .HeadrNavItem.getaquote {
+    margin-right: auto;
+    margin-left: 25px;
+  }
