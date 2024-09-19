@@ -107,7 +107,7 @@ a {
 
 .LanguageSwitcher svg {
   width: 28px;
-  height: 26px;
+  height: 24px;
 }
 
 .MenuButton {
@@ -226,7 +226,6 @@ a {
 .LanguageSwitcherLink span {
   margin-right: 8px;
   position: relative;
-  top: -2px;
   font-weight: 500;
   transition: 0.4s;
 }
