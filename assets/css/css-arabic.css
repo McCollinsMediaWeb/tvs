@@ -28,7 +28,7 @@ body{
   }
 
   .marquee {
-    animation: marqueertl 40s linear infinite;
+    animation: marqueertl 50s linear infinite !important;
   }
   .HeadrNavItem.getaquote {
     margin-right: auto;
