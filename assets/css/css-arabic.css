@@ -56,7 +56,9 @@ body{
     left: auto;
     right: 0;
   }
-
+.dir-ltr{
+  direction: ltr !important;
+}
 
   @media only screen and (max-width: 1000px) {
     .MenuButton{
