@@ -66,6 +66,9 @@ body{
 body .intl-tel-input input[type="tel"]{
   padding-right: 15px !important;
 }
+.wpcf7-form-control.wpcf7-submit{
+  margin-left: auto !important;
+}
 
   @media only screen and (max-width: 1000px) {
     .MenuButton{
