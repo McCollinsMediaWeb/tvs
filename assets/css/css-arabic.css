@@ -63,6 +63,9 @@ body{
   direction: rtl !important;
   text-align: right !important;
 }
+body .intl-tel-input input[type="tel"]{
+  padding-right: 15px !important;
+}
 
   @media only screen and (max-width: 1000px) {
     .MenuButton{
