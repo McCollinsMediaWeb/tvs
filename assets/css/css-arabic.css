@@ -64,8 +64,9 @@ body{
   text-align: right !important;
 }
 body .intl-tel-input input[type="tel"]{
-  padding-right: 15px !important;
+  padding-right: 52px !important;
   direction: ltr !important;
+  padding-left: 15px !important;
 }
 .wpcf7-form-control.wpcf7-submit{
   margin-left: auto !important;
