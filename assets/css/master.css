@@ -56,7 +56,10 @@ a {
   color: #fff;
   font-size: 13px;
 }
+.intl-tel-input .country-list {
 
+  border-radius: 20px;
+}
 /* Keyframes for the ticker animation */
 @keyframes marquee {
   0% {
