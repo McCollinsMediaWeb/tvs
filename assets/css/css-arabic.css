@@ -59,6 +59,10 @@ body{
 .dir-ltr{
   direction: ltr !important;
 }
+.PopupContactBox input, .PopupContactBox select, .PopupContactBox textarea{
+  direction: rtl !important;
+  text-align: right !important;
+}
 
   @media only screen and (max-width: 1000px) {
     .MenuButton{
