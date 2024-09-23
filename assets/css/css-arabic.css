@@ -99,6 +99,14 @@ body .intl-tel-input input[type="tel"]{
 .BlogItemsBox a:hover .BlogDateandPostdetailsM span{
   color: #fff !important;
 }
+.BulletPoint {
+  padding-left: 0;
+  padding-right: 20px;
+}
+.BulletPoint::after {
+  left: auto;
+  right: 0;
+}
   @media only screen and (max-width: 1000px) {
     .MenuButton{
         margin-left: 0;
