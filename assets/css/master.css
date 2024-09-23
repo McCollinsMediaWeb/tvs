@@ -1883,4 +1883,8 @@ font-weight: 600;
     width: 16px;
     height: 16px;
   }
+  .MenuIcon {
+    width: 25px;
+    height: 25px;
+  }
 }
