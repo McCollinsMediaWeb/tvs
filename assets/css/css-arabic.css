@@ -95,6 +95,10 @@ body .intl-tel-input input[type="tel"]{
   left: -40px !important;
   right: auto !important;
 }
+
+.BlogItemsBox a:hover .BlogDateandPostdetailsM span{
+  color: #fff !important;
+}
   @media only screen and (max-width: 1000px) {
     .MenuButton{
         margin-left: 0;
