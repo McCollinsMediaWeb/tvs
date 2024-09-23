@@ -90,6 +90,10 @@ body .intl-tel-input input[type="tel"]{
   right: auto;
   left: 0;
 }
+
+[dir="rtl"] .slick-prev {
+  left: 0 !important;
+}
   @media only screen and (max-width: 1000px) {
     .MenuButton{
         margin-left: 0;
