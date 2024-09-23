@@ -198,6 +198,7 @@ $(".GalleryItemSliderar").slick({
   loop: false,
   arrows: true,
   variableWidth: true,
+  rtl:true,
   responsive: [
     {
       breakpoint: 1024,
