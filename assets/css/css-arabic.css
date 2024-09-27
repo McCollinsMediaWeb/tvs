@@ -117,4 +117,10 @@ body .intl-tel-input input[type="tel"]{
     .LanguageSwitcherLink {
         padding: 0px 8px;
     }
+    .PopUpFooterBox .text-left{
+      text-align: center !important;
+    }
+    header .container {
+      padding: 5px 10px;
+    }
   }
