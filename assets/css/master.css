@@ -1887,4 +1887,7 @@ font-weight: 600;
     width: 25px;
     height: 25px;
   }
+  #background-video {
+    object-fit: cover;
+  }
 }
