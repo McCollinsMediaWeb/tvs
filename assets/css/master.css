@@ -1496,6 +1496,13 @@ font-weight: 600;
   font-size: 25px;
   margin-bottom: 30px;
 }
+.DisplayBlock ul li {
+  text-align: left;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.5;
+}
 @media only screen and (max-width: 1000px) {
   body{
     font-size: 14px;
