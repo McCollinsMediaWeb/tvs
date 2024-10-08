@@ -136,7 +136,7 @@ a {
 
 .HeroSection::after {
   content: "";
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
   left: 0;
   top: 0;
@@ -601,7 +601,7 @@ body .intl-tel-input input[type="tel"]{
 }
 
 .ServBoxContent {
-  padding: 20px;
+  padding: 25px;
   transition: 0.6s;
   background-color: #e24301;
   position: absolute;
@@ -612,6 +612,7 @@ body .intl-tel-input input[type="tel"]{
   text-align: center;
   width: 100%;
   overflow: hidden;
+  transition: 0.5s;
 }
 
 .ServBoxContentT1 {
@@ -622,12 +623,27 @@ body .intl-tel-input input[type="tel"]{
 
 .ServBoxContentT2 {
   margin-top: 10px;
-  font-size: 0;
   transition: 0.4s;
+  display: none;
+  font-size: 15px;
+}
+.LinkTp1 .AboutHomeBoxT3{
+  display: none;
 }
 
 .LinkTp1:hover .ServBoxContentT2 {
-  font-size: 15px;
+display: block;
+}
+.LinkTp1:hover .AboutHomeBoxT3{
+  display: inline-block;
+}
+
+.LinkTp1:hover:hover .ServBoxContent{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .LinkTp1:hover .ServBoxContent {
