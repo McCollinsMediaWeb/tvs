@@ -620,7 +620,9 @@ body .intl-tel-input input[type="tel"]{
   font-weight: 500;
   text-transform: uppercase;
 }
-
+.LinkTp1{
+  display: block;
+}
 .ServBoxContentT2 {
   margin-top: 10px;
   transition: 0.4s;
