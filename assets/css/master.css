@@ -136,7 +136,7 @@ a {
 
 .HeroSection::after {
   content: "";
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
   left: 0;
   top: 0;
@@ -638,7 +638,7 @@ display: block;
   display: inline-block;
 }
 
-.LinkTp1:hover:hover .ServBoxContent{
+.LinkTp1:hover .ServBoxContent{
   height: 100%;
   display: flex;
   align-items: center;
