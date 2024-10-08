@@ -640,13 +640,7 @@ display: block;
   display: inline-block;
 }
 
-.LinkTp1:hover .ServBoxContent{
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
+
 
 .LinkTp1:hover .ServBoxContent {
   border-top-left-radius: 20px;
