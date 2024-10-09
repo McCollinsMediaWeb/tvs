@@ -1515,6 +1515,9 @@ font-weight: 600;
   font-weight: 500;
   line-height: 1.5;
 }
+html body #chat-bot-launcher-button{
+  background-image: url(../images/chat.jpg) !important;
+}
 @media only screen and (max-width: 1000px) {
   body{
     font-size: 14px;
