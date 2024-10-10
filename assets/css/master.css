@@ -402,6 +402,7 @@ a {
   -moz-appearance: none;
   appearance: none;
   max-height: 75px;
+  font-size: 13px;
 }
 .wpcf7 form .wpcf7-response-output {
   margin: 0;
