@@ -136,7 +136,7 @@ a {
 
 .HeroSection::after {
   content: "";
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.0);
   position: absolute;
   left: 0;
   top: 0;
