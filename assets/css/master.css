@@ -1913,6 +1913,7 @@ html body #chat-bot-launcher-button{
   }
   #background-video {
     object-fit: cover;
+    height: auto !important;
   }
 }
 
