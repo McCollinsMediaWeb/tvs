@@ -628,18 +628,15 @@ body .intl-tel-input input[type="tel"]{
 .ServBoxContentT2 {
   margin-top: 10px;
   transition: 0.4s;
-  display: none;
   font-size: 15px;
 }
-.LinkTp1 .AboutHomeBoxT3{
-  display: none;
-}
+
 
 .LinkTp1:hover .ServBoxContentT2 {
 display: block;
 }
-.LinkTp1:hover .AboutHomeBoxT3{
-  display: inline-block;
+.LinkTp1 .AboutHomeBoxT3{
+  display: block !important;
 }
 
 
