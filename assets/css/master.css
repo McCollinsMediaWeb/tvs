@@ -1958,6 +1958,9 @@ video::-webkit-media-controls-seek-forward-button {
   left: 0;
   text-align: center !important;
 }
+img{
+  background-color: #e24301 !important;
+}
 @media only screen and (max-width: 1000px) {
   .Form1 input{
     padding: 9px 25px;
