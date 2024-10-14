@@ -636,7 +636,7 @@ body .intl-tel-input input[type="tel"]{
 display: block;
 }
 .LinkTp1 .AboutHomeBoxT3{
-  display: block !important;
+  display: inline-block !important;
 }
 
 
