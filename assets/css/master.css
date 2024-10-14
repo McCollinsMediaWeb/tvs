@@ -639,9 +639,7 @@ display: block;
   display: inline-block !important;
 }
 
-
-
-.LinkTp1:hover .ServBoxContent {
+.LinkTp1 .ServBoxContent {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
