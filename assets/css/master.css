@@ -1628,7 +1628,7 @@ html body #chat-bot-launcher-button{
     margin-left: auto;
   }
   .ServicesBoxes .ServiceBoxTp  {
-    height: 380px;
+    height: 350px;
     margin-bottom: 10px;
   }
   .ServBoxContentT2 {
@@ -1957,5 +1957,14 @@ video::-webkit-media-controls-seek-forward-button {
   .SubScribeForm .wpcf7-form-control.wpcf7-submit{
     padding: 9px;
     max-width: 105px;
+  }
+  .ServBoxContentT2 {
+    display: none;
+  }
+  .LinkTp1 .AboutHomeBoxT3 {
+    display: none !important;
+  }
+  .ServiceBoxTp.ServiceBoxTp2 {
+    background-position: center;
   }
 }
