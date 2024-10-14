@@ -1950,3 +1950,12 @@ video::-webkit-media-controls-seek-forward-button {
 .SubScribeForm p{
   margin-bottom: 0px !important;
 }
+@media only screen and (max-width: 1000px) {
+  .Form1 input{
+    padding: 9px 25px;
+  }
+  .SubScribeForm .wpcf7-form-control.wpcf7-submit{
+    padding: 9px;
+    max-width: 105px;
+  }
+}
