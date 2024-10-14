@@ -1950,6 +1950,13 @@ video::-webkit-media-controls-seek-forward-button {
 .SubScribeForm p{
   margin-bottom: 0px !important;
 }
+.Form1 .SubScribeForm.arabicForm input{
+  text-align: right !important;
+}
+.SubScribeForm.arabicForm .wpcf7-form-control.wpcf7-submit{
+  right: auto;
+  left: 0;
+}
 @media only screen and (max-width: 1000px) {
   .Form1 input{
     padding: 9px 25px;
