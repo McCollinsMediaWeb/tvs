@@ -1956,6 +1956,7 @@ video::-webkit-media-controls-seek-forward-button {
 .SubScribeForm.arabicForm .wpcf7-form-control.wpcf7-submit{
   right: auto;
   left: 0;
+  text-align: center !important;
 }
 @media only screen and (max-width: 1000px) {
   .Form1 input{
