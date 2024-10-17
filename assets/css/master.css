@@ -1582,6 +1582,8 @@ html body #chat-bot-launcher-button{
   .FtrLinkP {
     min-width: auto;
     padding: 8px 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .PopUpHeaderBoxWrap2{
     padding: 0;
