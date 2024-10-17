@@ -585,7 +585,6 @@ body .intl-tel-input input[type="tel"]{
 
 .ServiceBoxTp {
   background-color: #e24301;
-  padding: 25px;
   border-radius: 20px;
 }
 
@@ -597,9 +596,6 @@ body .intl-tel-input input[type="tel"]{
   padding: 25px;
   transition: 0.6s;
   background-color: #e24301;
-  position: absolute;
-  bottom: 0;
-  left: 0;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   text-align: center;
