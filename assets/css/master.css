@@ -590,6 +590,8 @@ body .intl-tel-input input[type="tel"]{
 
 .ServiceImageHome{
   width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
 
 .ServBoxContent {
@@ -1617,6 +1619,7 @@ html body #chat-bot-launcher-button{
   .ServicesBoxes .ServiceBoxTp  {
     height: auto;
     margin-bottom: 10px;
+
   }
   .ServBoxContentT2 {
     font-size: 13px;
