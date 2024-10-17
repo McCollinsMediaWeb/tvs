@@ -587,19 +587,10 @@ body .intl-tel-input input[type="tel"]{
   background-color: #e24301;
   padding: 25px;
   border-radius: 20px;
-  background-image: url(../images/service-home-1.jpg);
+}
+
+.ServiceImageHome{
   width: 100%;
-  height: 450px;
-  object-fit: cover;
-  background-position: center top;
-}
-
-.ServiceBoxTp.ServiceBoxTp1 {
-  background-image: url(../images/service-home-1.jpg);
-}
-
-.ServiceBoxTp.ServiceBoxTp2 {
-  background-image: url(../images/service-home.jpg);
 }
 
 .ServBoxContent {
