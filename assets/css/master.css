@@ -1984,4 +1984,7 @@ video::-webkit-media-controls-seek-forward-button {
   .rtl .PopUpFooterBox .col-md-10{
     margin-bottom: 10px;
   }
+  .rtl .PopUpFooterBox .col-md-2 {
+    text-align: center !important;
+  }
 }
