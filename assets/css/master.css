@@ -1573,14 +1573,15 @@ html body #chat-bot-launcher-button{
     text-align: center;
   }
   .PopUpFooterBox .col-md-10 {
-    font-size: 18px;
+    font-size: 17px;
   }
   .PopUpFooterBox .col-md-2 {
     text-align: center;
     margin-top: 10px;
   }
   .FtrLinkP {
-    min-width: 200px;
+    min-width: auto;
+    padding: 8px 20px;
   }
   .PopUpHeaderBoxWrap2{
     padding: 0;
