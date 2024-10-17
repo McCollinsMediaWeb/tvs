@@ -270,11 +270,18 @@ a {
 
 .MenuPOpup1,
 .MenuPOpup2,
-.MenuPOpup3 {
+.MenuPOpup3,
+.MenuPOpup4 {
   display: none;
 }
 
 .menuPopupActivated .MenuPOpup1 {
+  display: block;
+}
+.servicePopupActivated .MenuPOpup3{
+  display: block;
+}
+.capabilitiesPopupActivated .MenuPOpup4{
   display: block;
 }
 
@@ -284,6 +291,8 @@ a {
 
 .PopupContentBox {
   padding: 20px;
+  overflow: hidden;
+  overflow-y: auto;
 }
 
 .PopUpHeaderBox {

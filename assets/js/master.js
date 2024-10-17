@@ -54,7 +54,26 @@ $(document).ready(
                 jQuery('.PopupContentBox2').css('height', (windowHeight - totalGap )+'px');
                 
             });
+            $(".ServiceButton , .ServiceButtonClose").click(function () {
+              jQuery("body").toggleClass("servicePopupActivated");
+              
+              windowHeight = jQuery(window).height();
+              PopupHeaderHeight2= jQuery(".PopUpHeaderBoxWrap3").height();
+              PopuuFooterHeight2= jQuery(".PopUpFooterBoxWrap3").height();
+              totalGap = PopupHeaderHeight2 + PopuuFooterHeight2;
+              jQuery('.PopupContentBox3').css('height', (windowHeight - totalGap )+'px');
+              
+          });
+          $(".CapabilititiesButton , .CapabilititiesButtonClose").click(function () {
+            jQuery("body").toggleClass("capabilitiesPopupActivated");
             
+            windowHeight = jQuery(window).height();
+            PopupHeaderHeight2= jQuery(".PopUpHeaderBoxWrap4").height();
+            PopuuFooterHeight2= jQuery(".PopUpFooterBoxWrap4").height();
+            totalGap = PopupHeaderHeight2 + PopuuFooterHeight2;
+            jQuery('.PopupContentBox4').css('height', (windowHeight - totalGap )+'px');
+            
+        });
   });
 
   $(document).ready(function () {
