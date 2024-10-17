@@ -1980,4 +1980,8 @@ video::-webkit-media-controls-seek-forward-button {
   .ServiceBoxTp.ServiceBoxTp2 {
     background-position: center;
   }
+  .rtl .PopUpFooterBox .col-md-8, 
+  .rtl .PopUpFooterBox .col-md-10{
+    margin-bottom: 10px;
+  }
 }
